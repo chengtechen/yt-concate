@@ -1,3 +1,21 @@
-python-dotenv==0.14.0
-pytube3==9.6.4
-typing-extensions==3.7.4.3
+Package           Version
+----------------- ---------
+certifi           2020.6.20
+chardet           3.0.4
+decorator         4.4.2
+idna              2.10
+imageio           2.9.0
+imageio-ffmpeg    0.4.2
+moviepy           1.0.3
+numpy             1.19.2
+Pillow            8.0.1
+pip               20.2.3
+proglog           0.1.9
+python-dotenv     0.14.0
+pytube3           9.6.4
+requests          2.24.0
+setuptools        50.3.1
+tqdm              4.51.0
+typing-extensions 3.7.4.3
+urllib3           1.25.11
+wheel             0.35.1
