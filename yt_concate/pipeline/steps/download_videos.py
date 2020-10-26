@@ -26,3 +26,5 @@ class DownloadVideos(Step):
                 print('Error when download video for ', url)
                 continue
 
+        return data
+

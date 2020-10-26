@@ -13,6 +13,9 @@ class Pipeline:
             except StepException as e:
                 print('Exception happened:', e)
                 break
+            except TypeError:
+                print('TypeError Exception happened:')
+                continue
 
 
 

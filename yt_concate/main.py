@@ -19,6 +19,7 @@ def main():
         'channel_id': CHANNEL_ID,
         'search_word': 'incredible',
         'limit': 20,
+        'cleanup': False,
         }
 
     steps = [
