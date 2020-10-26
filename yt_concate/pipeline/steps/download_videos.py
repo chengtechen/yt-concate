@@ -17,4 +17,12 @@ class DownloadVideos(Step):
                 continue
 
             print('downloading', url)
-            YouTube(url).streams.first().download(output_path=VIDEOS_DIR, filename=yt.id)
+            try:
+                YouTube(url).streams.first().download(output_path=VIDEOS_DIR, filename=yt.id)
+            except KeyError:
+                print('Error when download video for ', url)
+                continue
+            except:
+                print('Error when download video for ', url)
+                continue
+

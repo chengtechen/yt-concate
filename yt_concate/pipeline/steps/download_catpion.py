@@ -22,6 +22,7 @@ class DownloadCaptions(Step):
                 print('Error when download caption for ', yt.url)
                 continue
             except:
+                print('Error when download caption for ', yt.url)
                 continue
 
             text_file = open(yt.caption_filepath, "w", encoding='utf-8')
